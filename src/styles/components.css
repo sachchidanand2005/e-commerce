@@ -1,0 +1,111 @@
+.header {
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .cart {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #555;
+  }
+
+  .cart-icon {
+    width: 24px;
+    height: 24px;
+    font-size: 1.5rem; /* Ensuring emoji or icon scales properly */
+  }
+
+  .cart-count {
+    font-weight: 500;
+    background: #007bff;
+    color: white;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .product-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .product-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 0.75rem;
+    color: #222;
+  }
+
+  .product-price {
+    color: #666;
+    margin-top: 0.5rem;
+  }
+
+  .add-to-cart {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+
+  .add-to-cart:hover {
+    background-color: #218838;
+  }
+
+  .footer {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding: 1rem 0;
+    color: #555;
+  }
+
+  .search-bar {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
