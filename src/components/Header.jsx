@@ -12,7 +12,7 @@ export default function Header({ cartCount, onSearch }) {
   return (
     <header className="header">
       <div className="container">
-        <h1 className="logo">MyShop</h1>
+        <h1 className="logo">ShopNow</h1>
         <input
           type="text"
           placeholder="Search products..."
